@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    font-size: 16px;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.orderSummaryContainer {
+    border-radius: 26px;
+    background: white;
+    width: 26rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.orderSummaryMainImg {
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    width: 100%;
+}
+
+.summaryOrderHeading {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.summaryOrderContent {
+    line-height: 1.5em;
+    padding-bottom: 18px;
+    color: hsl(224, 23%, 55%);
+    width: 67%;
+    margin: 0 auto;
+}
+
+.orderSummaryPlanContainer {
+    width: 70%;
+    margin: 0 auto;
+    background: hsl(225, 100%, 98%);
+    padding: 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 24px;
+}
+
+.musicIcon, .orderSummaryPlancontentContainer, .orderSummaryButton {
+    display: inline-block;
+}
+
+.musicIcon {
+    width: 20%;
+    position: relative;
+    top: 6px;
+}
+
+.orderSummaryPlancontentContainer {
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.orderSummaryButton {
+    width: 22%;
+    position: relative;
+    top: -15px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.orderSummaryButton:hover {
+    color: hsl(245deg 100% 70%);
+    text-decoration: none;
+}
+
+.planHeading {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    position: relative;
+    top: -6px;
+}
+
+.planPrice {
+    color: hsl(224, 23%, 55%);
+}
+
+.btn {
+    border: none;
+    padding: 18px 30px;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    margin-bottom: 10px;
+    box-shadow: 1px 4px 12px 1px hsl(224deg 100% 84%);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: hsl(245deg 100% 70%);
+}
+
+.btn-cancel {
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    padding-bottom: 41px;
+    font-weight: 700;
+}
+
+.btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
